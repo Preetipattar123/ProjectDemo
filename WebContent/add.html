@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<body>
+	 	<table  align ="center">
+		<form method="post" action="add.jsp">
+
+			<tr>
+				<td><b>Registration Date:</b></td>
+				<td><input type="date" name="regDate"></td>
+			</tr>
+			<tr>
+				<td><b>Description:</b></td>
+				<td><input type="text" name="description"></td>
+			</tr>
+			<tr>
+			
+				<td><b> Priority:</b></td>
+				<td><select name="priority">
+						<option selected="selected">---select---</option>
+						<option value="1">Fresher</option>
+						<option value="2">Between 3 to 5 years experience</option>
+						<option value="3">Above 5 years experience</option></td>
+				</select>
+			</tr>
+			<br>
+			<tr>
+				<td><b>validity start date:</b></td>
+				<td><input type="date" name="vsd"></td>
+			</tr>
+			<tr>
+				<td><b>validity end date:</b></td>
+				<td><input type="date" name="ved"></td>
+			</tr>
+			<br>
+			<tr>
+				<td><b> assigned To:</b></td>
+				<td><select name="assigned">
+						<option selected="selected">---select---</option>
+						<option value="Recruiter 1">Recruiter number 1</option>
+						<option value="Recruiter 2">Recruiter number 2</option>
+						<option value="Team leader">Team leader</option></td>
+				</select>
+			</tr>
+			<br>
+			<tr>
+				<td><!-- input type="submit" value="submit"  style="font-size:7pt;color:white;background-color:green;align:center;border:2px solid #336600;padding:3px" --></td>
+				<td> <button><b>submit</b></button></td>
+			</tr>
+
+		</form>
+	
+		<style>
+form {
+	margin: 210px 210px 210px 210px;
+	text-align: center;
+}
+
+table {
+	border: 1px solid blue;
+	background-color: pink;
+	padding:20px;
+}
+button{
+background-color: white;
+  border: none;
+  color: green;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+
+
+}
+
+body{
+background-color:#E5E7E9 ;
+}
+</style>
+	</table>
+</body>
+</html>
